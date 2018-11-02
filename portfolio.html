@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- This is the title that shows at the top of the webpage -->
+		<title>My Portfolio</title>
+
+		<!-- Link for CSS on rotating cards -->
+    	<link href='assets/css/rotating-card.css' rel='stylesheet' />
+		
+		<!-- This is the Twitter Bootstrap reference -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- This references the CSS stylesheet -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<!-- This referneces the CSS stylesheet for items that have hover to them -->
+		<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
+
+		<!-- Link for favicon -->
+		<link rel="icon" type="image/png" href="assets/images/profile.jpg">
+
+	</head>
+<body>
+
+	<!-- This is the navbar at the top of the page -->
+   	<section id="blankspaceattop">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<h1><a id="namelink" href="index.html">Vikas Saraogi</a></h1>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li role="presentation"><a href="index.html">About</a></li>
+						<li role="presentation" class="active"><a href="portfolio.html">Portfolio</a></li>
+						<li role="presentation"><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+<!-- This is for the Portfolio in the main body section -->
+<section id="Portfolio_Section">
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="mobile">For touch devices, please tap on the card to view the back/front of the card</div>
+			<section id="Inside_Portfolio_Section">
+				
+
+<!-- MORTAL KOMBAT RPG GAME -->
+<div class="card-container">
+	<div class="card">
+		<div class="front">
+			<div class="content">
+				<div class="main">
+					<h3 class="name">MORTAL KOMBAT RPG GAME</h3>
+					<p class="profession">Front-End App</p>
+					<p class="text-center">Remember Mortal Kombat?  Relive the great fights in this fun game.</p>
+					<!-- <img id="Portfolio_images" src="assets/covers/rpggame.gif"> -->
+				</div>
+			</div>
+		</div>
+		<div class="back">
+			<div class="header">
+				<h5 class="motto">Utilized Technologies:</h5>
+				<div class="row">
+					<div class="col-sm-6 techs">
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+						<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+					</div>
+					<div class="col-sm-6 techs">
+						<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+					</div>
+				</div>
+				<h5 class="motto">Great old-school fun.  Play and fight your way through all enemies.  You can win with each character as long as you choose the right opponents. </h5>
+				<div class="text-center">
+					<button class="btn btn-success" onclick="window.open('https://vsaraog.github.io/unit-4-game/')" role="button">DEMO</button>
+					<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/unit-4-game')" role="button">Source code</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- BAMAZON APP -->
+<div class="card-container">
+	<div class="card">
+		<div class="front">
+			<div class="content">
+				<div class="main">
+					<h3 class="name">BAMAZON</h3>
+					<p class="profession">Back-End App</p>
+					<p class="text-center">Customers and companies can use this item to create, track and sell products and to track sales.</p>
+					<!-- <img id="Portfolio_images" src="assets/covers/bamazon.gif"> -->
+				</div>
+			</div>
+		</div>
+		<div class="back">
+			<div class="header">
+				<h5 class="motto">Utilized Technologies:</h5>
+				<div class="row">
+					<div class="col-sm-6 techs">
+						<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+					</div>
+					<div class="col-sm-6 techs">
+						<a href="https://www.mysql.com/" target="_blank"><li>MySQL</li></a>
+						<a href="https://github.com/eldargab/easy-table" target="_blank"><li>Easy-Table</li></a>
+					</div>
+				</div>
+				<h5 class="motto">Access the customer's module to purchase merchandise. Access the manager's module to add/delete/edit invenotry. Access the supervisor's module to see total product sales and to add new categories. Checks at every step ensure you don't make a mistake.  Info is stored on a MySQL database.</h5>
+				<div class="text-center">
+					<button class="btn btn-info" onclick="window.open('https://github.com/vsaraog/bamazon-node-cli/blob/master/screen-recording.mov')" role="button">VIDEO</button>
+					<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/bamazon-node-cli')" role="button">Source code</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- GIPHY API -->
+<div class="card-container">
+	<div class="card">
+		<div class="front">
+			<div class="content">
+				<div class="main">
+					<h3 class="name">GIPHY API</h3>
+					<p class="profession">Front-End App</p>
+					<p class="text-center">Pick the right gif with this app that returns 10 GIPHY images for each keyword. You can make them dance!</p>
+					<!-- <img id="Portfolio_images" src="assets/covers/giphy.gif"> -->
+				</div>
+			</div>
+		</div>
+		<div class="back">
+			<div class="header">
+				<h5 class="motto">Utilized Technologies:</h5>
+				<div class="row">
+					<div class="col-sm-6 techs">
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/AJAX" target="_blank"><li>AJAX</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+					</div>
+					<div class="col-sm-6 techs">
+						<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+						<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+						<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
+					</div>
+				</div>
+				<h5 class="motto">This app allows you to select one of several animated gif results from the GIPHY website. Use a starter list or enter your own search term.  Start and stop a gif's animation by clicking on it.</h5>
+				<div class="text-center">
+					<button class="btn btn-success" onclick="window.open('https://vsaraog.github.io/gimpy-ajax/')" role="button">DEMO</button>
+					<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/gimpy-ajax')" role="button">Source code</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Image Memory Game -->
+<div class="card-container">
+	<div class="card">
+		<div class="front">
+			<div class="content">
+				<div class="main">
+					<h3 class="name">Memory Game</h3>
+					<p class="profession">Front-End App</p>
+					<p class="text-center">Test your memory. Can you pick all the soccer players once and only once?</p>
+					<!-- <img id="Portfolio_images" src="assets/covers/giphy.gif"> -->
+				</div>
+			</div>
+		</div>
+		<div class="back">
+			<div class="header">
+				<h5 class="motto">Utilized Technologies:</h5>
+				<div class="row">
+					<div class="col-sm-6 techs">
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+					</div>
+					<div class="col-sm-6 techs">
+						<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+						<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+						<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
+					</div>
+				</div>
+				<h5 class="motto">This fun app is to test your memory. You are given 12 current or former US women soccer players. As long as you uniquely choose them, the game continues. If a player is chosen twice you lose. If all players are chosen correctly you win!</h5>
+				<div class="text-center">
+					<button class="btn btn-success" onclick="window.open('https://vsaraog.github.io/image-memory-game/')" role="button">DEMO</button>
+					<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/image-memory-game')" role="button">Source code</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- NEWS SEARCH CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">New York Times Reader</h3>
+										<p class="profession">Full Stack App</p>
+										<p class="text-center">Search and read articles from New York times. Save and make comments on articles if you choose.</p>
+										<!-- <img id="Portfolio_images" src="assets/covers/newsscraper.gif"> -->
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6 techs">
+											<a href="https://docs.mongodb.com/manual/" target="_blank"><li>MongoDB</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+											<a href="https://reactjs.org/" target="_blank"><li id="smaller">React</li></a>
+											<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+										</div>
+										<div class="col-sm-6 techs">
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/AJAX" target="_blank"><li>AJAX</li></a>
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+										</div>
+									</div>
+									<h5 class="motto">This app will get news articles from New York Times. Users can save articles for later reading and can comment on them if they wish. All info is saved into a Mongo database.</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://nytreact-vik.herokuapp.com/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/nytreact')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>			
+
+<!-- FRIEND FINDER CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">FRIEND FINDER</h3>
+										<p class="profession">Full Stack App</p>
+										<p class="text-center">This app matches you with a friend who has answered questions similarly.</p>
+										<!-- <img id="Portfolio_images" src="assets/covers/friendfinder.gif"> -->
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+											<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+										</div>
+										<div class="col-sm-6 techs">
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+										</div>
+									</div>
+									<h5 class="motto">Answer 10 thoughtful questions and see whose answers are closest to yours. You are given an ID# so you can return anytime to look for a new friend with stronger matches to your answers.</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://friend-finder-vikas.herokuapp.com/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/friend-finder')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+<!-- FRIEND FINDER CARD -->
+<div class="card-container">
+	<div class="card">
+		<div class="front">
+			<div class="content">
+				<div class="main">
+					<h3 class="name">TRAIN SCHEDULE</h3>
+					<p class="profession">Front-End App</p>
+					<p class="text-center">This app finds when is the next train coming.</p>
+					<!-- <img id="Portfolio_images" src="assets/covers/friendfinder.gif"> -->
+				</div>
+			</div>
+		</div>
+		<div class="back">
+			<div class="header">
+				<h5 class="motto">Utilized Technologies:</h5>
+				<div class="row">
+					<div class="col-sm-6 techs">
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+						<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+					</div>
+					<div class="col-sm-6 techs">
+							<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+							<a href="https://reactjs.org/" target="_blank"><li id="smaller">React</li></a>
+					</div>
+				</div>
+				<h5 class="motto">Add a train schedule and find out when is it coming next. But hurry or you might miss it!</h5>
+				<div class="text-center">
+					<button class="btn btn-success" onclick="window.open('https://vsaraog.github.io/TrainSchedule/')" role="button">DEMO</button>
+					<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/TrainSchedule')" role="button">Source code</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- NEWS SCRAPPER CARD -->
+<div class="card-container">
+		<div class="card">
+			<div class="front">
+				<div class="content">
+					<div class="main">
+						<h3 class="name">Slashdot Scrapper</h3>
+						<p class="profession">Full Stack App</p>
+						<p class="text-center">Scrape articles from slashdot. Save and make comments on articles if you choose.</p>
+					</div>
+				</div>
+			</div>
+			<div class="back">
+				<div class="header">
+					<h5 class="motto">Utilized Technologies:</h5>
+					<div class="row">
+						<div class="col-sm-6 techs">
+							<a href="https://docs.mongodb.com/manual/" target="_blank"><li>MongoDB</li></a>
+							<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+							<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+							<a href="https://reactjs.org/" target="_blank"><li id="smaller">React</li></a>
+							<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+							<a href="https://github.com/cheeriojs/cheerio" target="_blank"><li>Cheerios</li></a>
+						</div>
+						<div class="col-sm-6 techs">
+							<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+							<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+							<a href="https://developer.mozilla.org/en-US/docs/AJAX" target="_blank"><li>AJAX</li></a>
+							<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+							<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
+							<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+						</div>
+					</div>
+					<h5 class="motto">This app scrapes articles from Slashdot. Users can save articles for later reading and can comment on them if they wish. All info is saved into a Mongo database.</h5>
+					<div class="text-center">
+						<button class="btn btn-success" onclick="window.open('https://article-scraper-rutgurs.herokuapp.com/scrape')" role="button">DEMO</button>
+						<button class="btn btn-warning" onclick="window.open('https://github.com/vsaraog/article-scraper')" role="button">Source code</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>			
+
+
+					
+			</section>
+		</div>
+
+	<!-- The footer part at the bottom -->
+	<div class="row">
+		<div class="col-sm-12">
+			<footer class="footer">
+					&copy Copyright 2018 Vikas Saraogi
+					<a href="https://www.linkedin.com/in/vikas-saraogi/" target="_blank">
+						<img id="linkedinicon" class="footerIcons">
+					</a>
+					<a href="https://github.com/vsaraog" target="_blank">
+						<img id="githubicon" class="footerIcons">
+					</a>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

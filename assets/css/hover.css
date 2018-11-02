@@ -1,0 +1,118 @@
+
+
+header:hover {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	/* border: 2px solid #4aaaa5; */
+	padding: 18px;
+}
+
+h1 {
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	text-shadow: 0 0 5px #3aa6e6, 0 0 10px #3aa6e6, 0 0 15px #3aa6e6, 0 0 20px #3aa6e6, 0 0 35px #3aa6e6, 0 0 40px #3aa6e6, 0 0 50px #3aa6e6, 0 0 75px #3aa6e6; 
+}
+
+h1:hover {
+	opacity: 1;
+	cursor: pointer;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+
+#MyPic {
+	float: left;
+	background: url("../images/profilepic5.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 267px;
+	margin-right: 10px;
+}
+
+#MyPic:hover { 
+	float: left;
+	background: url("../images/profilepic6.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 267px;
+}
+
+
+.footerIcons {
+	width: 40px;
+	height: 40px;
+}
+
+#linkedinicon {
+	background: url("../images/linkedinicon.png");
+	background-size: contain;
+	margin: 5px;
+}
+
+#githubicon {
+	background: url("../images/githubicon3.png");
+	background-size: contain;
+}
+
+#stackoverflowicon {
+	background: url("../images/stackoverflowicon.png");
+	background-size: contain;
+	margin-left: 5px;
+}
+
+
+.footerIcons:hover {
+	width: 40px;
+	height: 40px;
+}
+
+#linkedinicon:hover {
+	background: url("../images/linkedinicon3.png");
+	background-size: contain;
+}
+
+#githubicon:hover {
+	background: url("../images/githubicon4.png");
+	background-color: black;
+	background-size: contain;
+}
+
+#stackoverflowicon:hover {
+	background: url("../images/stackoverflowicon2.png");
+	background-color: white;
+	background-size: contain;
+}
+
+a:link {
+	color: #3aa6e6;
+}
+
+a:hover {
+	color: #5FBDF4;
+}
+
+a:active {
+	color: #5FBDF4;
+}
+
+
+
+
+
+
+
+#submitform:hover {
+	background-color: #ffffff;
+	border: 2px solid #4aaaa5;
+	color: #4aaaa5;
+	padding: 8px 28px 8px 28px;
+}
+
+.title:hover {
+	background-color: #ffffff;
+	color: #4aaaa5;
+}
